@@ -1,0 +1,31 @@
+de:
+  field_amount: Betrag
+  field_applied_on: Zahldatum
+  field_customer: Kunde
+  field_date_from: Von
+  field_date_issued: "Ausstellsdatum"
+  field_date_to: An
+  field_due_date: "End Datum:"
+  field_invoice: Rechnung
+  field_invoice_number: Rechnungsnummer
+  field_invoiced_on: Rechnungsdatum
+  field_note: Bezahlungs Notiz
+  field_rate: Stundenansatz
+  label_auto_fill: Automatisch
+  label_bill_to: "Rechnung an:"
+  label_closed_invoices: Abgeschlossene Rechnungen
+  label_edit_invoice: Rechnung bearbeiten
+  label_invoice: Rechnung
+  label_invoice_list: Rechnungsliste
+  label_last_number: "letzte Nummer war"
+  label_late_invoices: Fällige Rechnungen
+  label_new_autofilled_invoice: Neue automatische Rechnung
+  label_new_invoice: Neue Rechnung
+  label_new_payment: Neue Bezahlung
+  label_no_customer_on_project: "Dieses Projekt hat keinen Kunden. Bitte erstellen Sie einen neuen Kunden, bevor Sie fortfahren."
+  label_open_invoices: Offene Rechnungen
+  label_paid_invoice: Bezahlte Rechnungen
+  label_payments: Bezahlungen
+  label_printable_view: Druckvorschau
+  label_total_due: "Total:"
+  label_work_description: Arbeitsrapport
