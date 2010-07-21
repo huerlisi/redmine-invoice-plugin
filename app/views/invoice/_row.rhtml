@@ -6,7 +6,7 @@
     <%= h(row.invoiced_on.strftime('%B %d, %Y')) if row.invoiced_on.present? %>
   </td>
   <td>
-    <%= h row.customer.company %> - <%= h row.customer.name %>
+    <%= h [row.customer.company, row.customer.name].join(' - ') if row.customer %>
   </td>
   <td>
     <%= link_to(h(row.project.name), :controller => 'projects', :action => 'show', :id => row.project) unless row.project.nil? %>
