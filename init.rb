@@ -38,7 +38,7 @@ Redmine::Plugin.register :invoice_plugin do
 
   permission :pay_invoices, { :payments => [:new, :create], :invoice => [:outstanding]}
   
-  menu :top_menu, "Invoices", {:controller => 'invoice', :action => 'index'}, :if => Proc.new {
+  menu :top_menu, "Invoices", {:controller => 'invoice', :action => 'index'}, :caption => :label_invoice_list, :if => Proc.new {
     User.current.allowed_to?(:show_invoices, nil, :global => true)
   }
 end
