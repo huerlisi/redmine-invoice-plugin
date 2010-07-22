@@ -4,7 +4,7 @@ de:
   field_customer: Kunde
   field_date_from: Von
   field_date_issued: "Ausstellsdatum"
-  field_date_to: An
+  field_date_to: Bis
   field_due_date: "End Datum:"
   field_invoice: Rechnung
   field_invoice_number: Rechnungsnummer
